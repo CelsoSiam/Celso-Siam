@@ -1,60 +1,248 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Celso Siam</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        h1 {
-            color: #333;
-        }
-        table {
-            width: 50%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-        table, th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
-</head>
-<body>
-    <h1>Celso Siam Perez</h1>
-    <h2>Datos Biográficos</h2>
-    <p>Nombre: [Celso Siam]</p>
-    <p>Correo: [celso_siam@hotmail.com]</p>
-    <p>Intereses: [Tus Intereses]</p>
 
-    <h2>Horario de Clases - Semestre 2024-20</h2>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biografia</title>
+</head>
+<style>
+  body {
+    font-family: sans-serif;
+    background: #d8d8db;
+  }
+
+  .contenedor {
+    width: 90%;
+    margin: auto;
+
+  }
+  .dv-foto{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .foto{
+    width: 45%;
+    
+  }
+  .fila {
+    margin: 10px auto;
+    padding: 15px;
+  }
+
+  .fila h1 {
+    color: #145072;
+    font-weight: 600;
+    font-style: oblique;
+    margin-bottom: -8px;
+  }
+
+  .fila small {
+    text-align: start;
+    text-decoration: none;
+    color: #000;
+    margin-top: -10px;
+
+  }
+
+  .fila p {
+    text-align: justify;
+
+  }
+
+  table {
+    border: 1px solid rgb(14, 14, 14);
+  }
+
+  table thead {
+    background-color: #145072;
+    color: #fff;
+  }
+
+  tr td {
+    border-top: 1px solid rgb(14, 14, 14);
+    border-left: 1px solid rgb(14, 14, 14);
+    width: 150px;
+    text-align: center;
+    transition: all .3s ease;
+  }
+
+  tr td:hover {
+    cursor: pointer;
+    background-color: #145072;
+    color: #fff;
+
+  }
+</style>
+
+<body>
+  <div class="contenedor">
+    <div class="fila">
+      <div class="dvFoto">
+        <img src="Yo.jpeg" alt="" class="foto">
+      </div>
+      <h1>Celso Siam Perez</h1>
+      <small>Padre de dos hermosas criaturas, buen hijo y excelente hermano</small>
+      
+      <p>Desde mi infancia, siempre he sentido una profunda curiosidad por el mundo que me rodea. Mi viaje personal ha estado marcado por 
+        el aprendizaje constante, la superación de desafíos y la búsqueda de nuevas oportunidades para crecer tanto en lo personal, 
+        como en lo profesional.</p>
+
+        <p>Nací el 20 de septiembre del 1987 en la Cuidad de La habana, Cuba, crecí en un entorno donde la educación y la perseverancia 
+          eran valores fundamentales. A lo largo de los años, he explorado diferentes campos de interés, siempre con la meta de mejorar y 
+          adquirir nuevas habilidades. He trabajado en diversos proyectos que me han permitido crecer y expandir mis horizontes, enfrentando 
+          retos que han fortalecido mi carácter y determinación. Legué a República Dominicana a finales del 2004, donde actualmente
+          resido... Mi historia aún se está escribiendo. Cada día representa una nueva oportunidad para avanzar, y me siento agradecido 
+          por cada momento que forma parte de este viaje.
+        </p>
+
+    </div>
+
+    <h3>Horario de Clases, Semestre 2025-10</h3>
     <table>
+      <thead>
         <tr>
-            <th>Día</th>
-            <th>Hora</th>
-            <th>Asignatura</th>
+          <th>Hora</th>
+          <th>Lunes</th>
+          <th>Martes</th>
+          <th>Miércoles</th>
+          <th>Jueves</th>
+          <th>Viernes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>7:00</td>
+          <td></td>
+          <td></td>
+          <td rowspan="2" class="bg">Lab. Programación III</td>
+          <td></td>
+          <td></td>
+
         </tr>
         <tr>
-            <td>Lunes</td>
-            <td>08:00 - 10:00</td>
-            <td>Matemáticas</td>
+          <td>8:00</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
         </tr>
         <tr>
-            <td>Martes</td>
-            <td>10:00 - 12:00</td>
-            <td>Física</td>
+          <td>9:00</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+
         </tr>
-        <!-- Agrega más filas según tu horario -->
+        <tr>
+          <td>10:00</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+
+        </tr>
+        <tr>
+          <td>11:00</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+
+        </tr>
+        <tr>
+          <td>12:00</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+
+        </tr>
+        <tr>
+          <td>13:00</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+
+        </tr>
+        <tr>
+          <td>14:00</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+
+        </tr>
+        <tr>
+          <td>15:00</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+
+        </tr>
+        <tr>
+          <td>16:00</td>
+          <td></td>
+          <td></td>
+          <td rowspan="2" class="bg">Calculo I</td>
+          <td></td>
+          <td></td>
+
+        </tr>
+        <tr>
+          <td>17:00</td>
+          <td ></td>
+          <td></td>
+          <td></td>
+          <td></td>
+
+        </tr>
+        <tr>
+          <td>18:00</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>19:00</td>
+          <td rowspan="4" class="bg">Base de Datos II</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>20:00</td>
+          <td></td>
+          <td></td>
+          <td rowspan="2" class="bg">Análisis y Diseño</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>21:00</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
     </table>
+  </div>
 </body>
+
 </html>
